@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  </head>
+  <body>
+
+    <input type="radio" name = "radio" id = "open">
+    <input type="radio" name = "radio" id = "close" checked>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <a href="#"><h1>MyPortofolio</h1></a>
+      </div>
+      <div class="menu">
+        <div class="nav-link-wrapper"><a href="#home" class = "page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#profile" class = "page-scroll">Profile</a></div>
+         <div class="nav-link-wrapper"><a href="#skill" class = "page-scroll">Skill</a></div>
+        <div class="nav-link-wrapper"><a href="#riwayat" class = "page-scroll">Riwayat Pendidikan</a></div>
+        <div class="nav-link-wrapper"><a href="#kontak" class = "page-scroll">Kontak Saya</a></div>
+      </div>
+      <label for = "open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class = "cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+     <!-- navbar -->
+
+    <!-- home -->
+    <div class="container-home" id="home">
+      <img src="assets/image/foto.jpeg" alt="">
+       <h2>WELCOME TO <span>MyPortofolio</span></h2>
+      <p>Putri Azizah Qudsiyah</p>
+      <p>Mahasiswa Teknik Informatika, Universitas Pasundan</p>
+    </div>
+     <!-- home -->
+
+    <!-- Halaman profile -->
+    <div class="container-profile" id = "profile">
+    <h1>Profile</h1>
+    <div class="kotak">
+    <form style="width: 1000px;">
+    <table style="width: 1000px;">
+    <tr>
+    <td rowspan="15" width="250px" >
+    <img src="assets/image/foto.jpeg" width="250px" height="320px" style="border-radius: 20px;"/>
+    </td>
+    </tr>
+    <tr>
+    <td><b>Nama Lengkap</b></td>
+    <td>:</td>
+    <td>Putri Azizah Qudsiyah</td>
+    </tr>
+    <tr>
+    <td><b>Tempat, Tanggal Lahir</b></td>
+    <td>:</td>
+    <td>Jakarta, 16 Februari 2002</td>
+    </tr>
+    <tr>
+    <td><b>Jenis Kelamin</b></td>
+    <td>:</td>
+    <td>Perempuan</td>
+    </tr>
+    <tr>
+    <td><b>Agama</b></td>
+    <td>:</td>
+    <td>Islam</td>
+    </tr>
+    <tr>
+    <td><b>Alamat</b></td>
+    <td>:</td>
+    <td>Kp.Panyandaan,RT04/RW14,Kec.Cisarua,Desa Jambudipa Kab.Bandung Barat</td>
+    </tr>
+    <tr>
+    <td><b>Status</b></td>
+    <td>:</td>
+    <td>Mahasiswa</td>
+    </tr>
+    </table>
+    </form>
+      </div>
+    </div>
+
+    <!-- Halaman profile -->
+
+
+
+    <!-- Halaman  Skill -->
+<div class="wrapper-skill" id="skill">
+     <h3>Skill</h3>
+<div class="container">
+    <p>HTML</p>
+<div class="skills html">50%</div>
+</div>
+<div class="container">
+    <p>CSS</p>
+<div class="skills css">40%</div>
+</div>
+
+<div class="container">
+    <p>Bootstrap</p>
+<div class="skills bootstrap">50%</div>
+</div>
+</div>
+    <!-- Halaman Skill -->
+
+
+   <!-- Halaman Riwayat Pendidikan-->
+    <div class="container-riwayat" id = "riwayat">
+      <h1>Riwayat Pendidikan</h1>
+    <div class="cards">
+    <a href="">
+        <div class="card">
+            <img src="assets/image/bangunan.png" alt="">
+            <p>SDN 2 PUCANGANOM</p>
+              <p>2009-2015</p>
+        </div>
+     </a>
+
+    <a href="">
+        <div class="card">
+            <img src="assets/image/bangunan.png" alt="">
+            <p>SMPN 1 BAWANG</p>
+            <p>2015-2018</p>
+        </div>
+    </a>
+
+    <a href="">
+        <div class="card">
+          <img src="assets/image/bangunan.png" alt="">
+          <p>SMKN 1 CISARUA</p>
+          <p>2018-2021</p>
+      </div>
+    </a>
+
+    <a href="">
+       <div class="card">
+          <img src="assets/image/bangunan.png" alt="">
+          <p>UNIVERSITAS PASUNDAN</p>
+          <p>2021-2025</p>
+       </div>
+    </a>
+
+    </div>
+    </div>
+        <!-- Halaman riwayat Pendidikan-->
+
+
+      <!-- Halaman form Kontak  -->
+    <div class="container-kontak" id = "kontak">
+      <h1>Kontak Saya</h1>
+      <form action="" method = "post">
+
+        <label for="">Nama Lengkap</label>
+        <input type="text">
+
+        <label for="">Nomor Telephone</label>
+        <input type="text">
+
+        <label for="">Email</label>
+        <input type="text">
+
+        <label for="">Pesan</label>
+        <textarea rows="8" cols="80"></textarea>
+
+        <button type = "submit" class="kontak-kirim">Kirim</button>
+      </form>
+    </div>
+      <!-- Halaman form Kontak  -->
+       
+<!-- Halaman Footer-->
+ <div class="footer">
+     <div class="ikon">
+         <a href="#"><i class="fa fa-whatsapp"></i></a>
+         <a href="#"><i class="fa fa-facebook-f"></i></a>
+         <a href="#"><i class="fa fa-twitter"></i></a>
+         <a href="#"><i class="fa fa-instagram"></i></a>
+         <a href="#"><i class="fa fa-youtube"></i></a>
+        <p>Copyright MyPortofolio,&copy2021</p>
+    </div>
+</div>
+<!-- Halaman Footer-->
+
+  </body>
+</html>

@@ -1,0 +1,401 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body{
+  overflow-x: hidden;
+  background-color:#E4CDA7;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background:  #533535;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  line-height: 40px;
+  z-index: 30;
+ 
+}
+
+nav .menu{
+  display: flex;
+}
+
+nav .logo a h1{
+  color:#E6CCA9;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+nav .menu .nav-link-wrapper a{
+  display: block;
+  color:#E6CCA9;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-family:  Times new roman;
+  font-weight: bold;
+}
+
+nav .menu .nav-link-wrapper a:hover{
+  color: white;
+
+}
+
+.container-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F5E8C7 ;
+  padding: 95px 0px 45px 0px;
+}
+
+.container-home img{
+  border-radius: 50%;
+  height: 253px;
+  width: 253px;
+  margin: 50px 0px 50px 0px;
+}
+
+.container-home h2 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: comic;
+  font-weight: bold;
+}
+
+.container-home span {
+  font-family: Brush Script MT;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.container-home p{
+  font-size: 20px;
+  margin:20px 0px 0px 0px;
+  font-family: sans-serif;
+
+
+}
+
+.container-profile{
+  padding: 40px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-profile h1{
+  padding-bottom: 20px;
+
+}
+
+
+.container-profile .kotak{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.container-profile .kotak  table,tr,td{
+    font-family: cambria;
+    color:#533535;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+
+.wrapper-skill{
+   padding: 5px 0px 80px 0px;
+   background-color: #F5E8C7;
+
+}
+
+.wrapper-skill h3 {
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 30px;
+    font-family: comic;
+    font-size: 38px;
+}
+
+.wrapper-skill p{
+    margin-left: 50px;
+    font-family: comic;
+    padding-bottom: 20px;
+
+}
+
+
+.skills {
+ text-align: right;
+ color: white;
+ margin:0px 0px 20px 40px;
+
+}
+
+
+.html {
+    width: 50%;
+    background-color: #DEBA9D;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.css {
+    width: 40%; 
+    background-color: #A0937D;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.bootstrap{
+    width: 50%; 
+    background-color: #C3B091;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container-riwayat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 35px 0px;
+}
+
+.container-riwayat h1{
+  padding-bottom: 30px;
+}
+
+
+.container-riwayat .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-riwayat .card{
+  width: 350px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 5px 0px;
+}
+
+.container-riwayat .card img{
+  width: 100px;
+  height: px;
+}
+
+.container-riwayat .card p{
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.container-kontak{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px;
+  background-color:  #F5E8C7;
+}
+
+
+.container-kontak h1{
+    padding-bottom: 30px;
+}
+
+.container-kontak form{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-kontak form label{
+  margin: 20px 0px 15px 0px;
+}
+
+.container-kontak form input{
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.container-kontak form textarea{
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.container-kontak form .kontak-kirim{
+  background: #533535;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px 20px 0px;
+  width: 250px;
+}
+
+.footer {
+  background-color: #533535;
+  color: #ffffff;
+  height: 50px;
+  padding: 25px;
+  font-family: Brush Script MT;
+  text-align: center;
+}
+
+.footer p{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.ikon a{
+    width: 30px;
+    height: 25px;
+    margin:30px 50px;
+}
+ 
+ .ikon i {
+    color:#FFFFFF;
+}
+
+
+
+body > input{
+  visibility: hidden;
+  position: absolute;
+}
+
+nav label{
+  display: none;
+}
+
+@media (max-width: 1200px){
+  .container-profile .kotak{
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .container-riwayat .card{
+    width: 450px;
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 992px){
+  nav .menu .nav-link-wrapper a{
+    padding: 20px 15px;
+  }
+  
+  .container-riwayat .cards{
+    flex-direction: column;
+  }
+  .container-riwayat .card{
+    width: 750px;
+  }
+  .container-kontak form{
+    width: 600px;
+  }
+  
+}
+
+@media (max-width: 768px){
+  nav .menu{
+    display: none;
+  }
+  nav .hamburger, nav .cross{
+    display: block;
+    padding: 17px 0px;
+    cursor: pointer;
+  }
+  nav .hamburger span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 6px;
+  }
+  nav .cross span:nth-child(1){
+    display: block;
+    width: 30px;
+    height: 4px;
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+    margin-top: -2px;
+    background: #E4CDA7;
+  }
+  nav .cross span:nth-child(2){
+    display: block;
+    width: 30px;
+    height: 4px;
+    transform-origin: 0 100%;
+    transform: rotate(-45deg);
+    margin-top: 17px;
+    background: #E4CDA7;
+  }
+  input#open:checked ~ nav .hamburger{
+    display: none;
+  }
+  input#close:checked ~ nav .cross{
+    display: none;
+  }
+  input#open:checked ~ nav .menu{
+    display: flex;
+    position: fixed;
+    top: 57.2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#533535;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ 
+  .container-riwayat .card{
+    width: 94%;
+    margin: 20px auto;
+  }
+  .container-kontak form{
+    width: 98%;
+  }
+  .container-kontak form input, .container-kontak form textarea {
+    box-sizing: border-box;
+  }
+
+}
+
+@media (max-width: 576px){
+  .container-home img{
+    height: 203px;
+    width: 220px;
+  }
+  .container-home h2{
+    width: 95%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .container-home p{
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+  }
+ 
+}
